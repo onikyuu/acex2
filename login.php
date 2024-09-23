@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css">
+    <style>
+        .inputSubmit{
+            background-color: #007bff;
+            border: none;
+            padding: 15px;
+            width: 100%;
+            border-radius: 10px;
+            color: white;
+            font-size: 15px;
+        }
+        .inputSubmit:hover{
+            background-color: #0056b3;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <img id="facillity" src="facillity.png" alt="facillity">
+    <div class="header">
+            <img id="fsa" src="logo_fsa.png" alt="fsa">
+    </div>
+    <div class="login-container">
+        <h2>Login</h2>
+        <form action="testeLogin.php" method="POST">
+            <label for="nome">Usuário:</label>
+            <input type="text" id="nome" name="nome" required>
+            <label for="senha">Senha:</label>
+            <input type="password" id="senha" name="senha" required>
+            <input class="inputSubmit" type="submit" name="submit" value="Entrar">
+            <div id="errorMessage" class="error-message"></div>
+        </form>
+        <a href="FormularioCadastro.php" id="">Cadastrar-se</a><br>
+    </div>
+</body>
+</html>

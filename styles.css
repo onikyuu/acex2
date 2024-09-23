@@ -1,3 +1,4 @@
+/* Estilos gerais */
 body {
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
@@ -23,6 +24,19 @@ header .container {
     padding: 0 20px;
 }
 
+.header-left {
+    display: flex;
+    align-items: center;
+}
+
+#fsa {
+    margin-left: -290px;
+    margin-right: -100px;
+    max-width: 380px; /* Tamanho máximo da imagem */
+    width: auto;
+    height: auto;
+}
+
 header h1 {
     margin: 0;
 }
@@ -32,6 +46,7 @@ header h1 {
     align-items: center;
 }
 
+/* Busca */
 .search-box-input::placeholder {
     color: #ffffff;
     opacity: 0.6;
@@ -147,7 +162,6 @@ header .container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
-    
 }
 
 .feedback-form {
@@ -196,12 +210,10 @@ header .container {
     color: #fff;
     border: none;
     cursor: pointer;
-    
 }
 
 .feedback-content button:hover {
     background-color: #0056b3;
-    
 }
 
 #feedbackButton {
@@ -213,17 +225,15 @@ header .container {
     cursor: pointer;
     border-radius: 5px;
     transition: background-color 0.3s ease;
-    
 }
 
 #feedbackButton:hover {
     background-color: #0056b3;
-    
 }
 
 #feedbackButton {
-    position:absolute;
-    right: 20px; 
+    position: absolute;
+    right: 20px;
     background-color: #2876cf;
     color: white;
     border: none;
@@ -247,9 +257,11 @@ header .container {
     transition: 0.3s;
     cursor: pointer;
 }
+
 .card:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
+
 .container {
     padding: 2px 16px;
 }
